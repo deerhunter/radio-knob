@@ -5,7 +5,7 @@ import sys
 import time
 import subprocess
 from rotary_class import RotaryEncoder
-#from pynput.keyboard import Controller
+from pynput.keyboard import Controller
 keyboard = Controller()  # Create the controller
 
 TOP_BUTTON = 6
